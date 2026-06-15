@@ -14,3 +14,6 @@ env/
 
 # macOS
 .DS_Store
+
+# Style profiles (user data — keep out of version control)
+profiles/*.json
