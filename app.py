@@ -9,6 +9,9 @@ Run with:
 Then open the localhost URL shown in your terminal.
 """
 
+import warnings
+warnings.filterwarnings("ignore", message=".*HTTP_422_UNPROCESSABLE_ENTITY.*")
+
 import gradio as gr
 
 from agent import run_agent
